@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1095C2962116016600E3A37F /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1095C2952116016600E3A37F /* Type.swift */; };
+		1095C2982116057100E3A37F /* BtnExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1095C2972116057100E3A37F /* BtnExt.swift */; };
+		10EE976D2115F98500E91CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EE976C2115F98500E91CB3 /* AppDelegate.swift */; };
+		10EE976F2115F98500E91CB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EE976E2115F98500E91CB3 /* ViewController.swift */; };
+		10EE97722115F98500E91CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EE97702115F98500E91CB3 /* Main.storyboard */; };
+		10EE97742115F98500E91CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EE97732115F98500E91CB3 /* Assets.xcassets */; };
+		10EE97772115F98500E91CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EE97752115F98500E91CB3 /* LaunchScreen.storyboard */; };
+		9A2BB1D7A60392B6399FA9E5 /* Pods_CoinEr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F657A6377EA785363356ED03 /* Pods_CoinEr.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1095C2952116016600E3A37F /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		1095C2972116057100E3A37F /* BtnExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnExt.swift; sourceTree = "<group>"; };
+		10EE97692115F98400E91CB3 /* CoinEr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinEr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10EE976C2115F98500E91CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10EE976E2115F98500E91CB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10EE97712115F98500E91CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10EE97732115F98500E91CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10EE97762115F98500E91CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10EE97782115F98500E91CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DECAD223D2F1984A0A6063 /* Pods-CoinEr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinEr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinEr/Pods-CoinEr.debug.xcconfig"; sourceTree = "<group>"; };
+		30EF019D6C7A6748D1C42FD2 /* Pods-CoinEr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinEr.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinEr/Pods-CoinEr.release.xcconfig"; sourceTree = "<group>"; };
+		F657A6377EA785363356ED03 /* Pods_CoinEr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinEr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10EE97662115F98400E91CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2BB1D7A60392B6399FA9E5 /* Pods_CoinEr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7E4DC97E3758F4EEF824BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F657A6377EA785363356ED03 /* Pods_CoinEr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10EE97602115F98400E91CB3 = {
+			isa = PBXGroup;
+			children = (
+				10EE976B2115F98400E91CB3 /* CoinEr */,
+				10EE976A2115F98400E91CB3 /* Products */,
+				FBE67B49CF2230136466CF7E /* Pods */,
+				0F7E4DC97E3758F4EEF824BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10EE976A2115F98400E91CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10EE97692115F98400E91CB3 /* CoinEr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10EE976B2115F98400E91CB3 /* CoinEr */ = {
+			isa = PBXGroup;
+			children = (
+				310A46692153A0D00033AA53 /* Extensions */,
+				310A466A2153A0E60033AA53 /* Model */,
+				310A466C2153A10C0033AA53 /* Controller */,
+				10EE976C2115F98500E91CB3 /* AppDelegate.swift */,
+				10EE97702115F98500E91CB3 /* Main.storyboard */,
+				10EE97732115F98500E91CB3 /* Assets.xcassets */,
+				10EE97752115F98500E91CB3 /* LaunchScreen.storyboard */,
+				10EE97782115F98500E91CB3 /* Info.plist */,
+			);
+			path = CoinEr;
+			sourceTree = "<group>";
+		};
+		310A46692153A0D00033AA53 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1095C2972116057100E3A37F /* BtnExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		310A466A2153A0E60033AA53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1095C2952116016600E3A37F /* Type.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		310A466C2153A10C0033AA53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10EE976E2115F98500E91CB3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FBE67B49CF2230136466CF7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26DECAD223D2F1984A0A6063 /* Pods-CoinEr.debug.xcconfig */,
+				30EF019D6C7A6748D1C42FD2 /* Pods-CoinEr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10EE97682115F98400E91CB3 /* CoinEr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10EE977B2115F98500E91CB3 /* Build configuration list for PBXNativeTarget "CoinEr" */;
+			buildPhases = (
+				F895F3F7552718322CD46C80 /* [CP] Check Pods Manifest.lock */,
+				10EE97652115F98400E91CB3 /* Sources */,
+				10EE97662115F98400E91CB3 /* Frameworks */,
+				10EE97672115F98400E91CB3 /* Resources */,
+				63E3A82AA2B8DB5F18254851 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinEr;
+			productName = CoinEr;
+			productReference = 10EE97692115F98400E91CB3 /* CoinEr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10EE97612115F98400E91CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = OSX;
+				TargetAttributes = {
+					10EE97682115F98400E91CB3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 10EE97642115F98400E91CB3 /* Build configuration list for PBXProject "CoinEr" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10EE97602115F98400E91CB3;
+			productRefGroup = 10EE976A2115F98400E91CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10EE97682115F98400E91CB3 /* CoinEr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10EE97672115F98400E91CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10EE97772115F98500E91CB3 /* LaunchScreen.storyboard in Resources */,
+				10EE97742115F98500E91CB3 /* Assets.xcassets in Resources */,
+				10EE97722115F98500E91CB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63E3A82AA2B8DB5F18254851 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoinEr/Pods-CoinEr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinEr/Pods-CoinEr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F895F3F7552718322CD46C80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinEr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10EE97652115F98400E91CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1095C2982116057100E3A37F /* BtnExt.swift in Sources */,
+				10EE976F2115F98500E91CB3 /* ViewController.swift in Sources */,
+				10EE976D2115F98500E91CB3 /* AppDelegate.swift in Sources */,
+				1095C2962116016600E3A37F /* Type.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10EE97702115F98500E91CB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10EE97712115F98500E91CB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10EE97752115F98500E91CB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10EE97762115F98500E91CB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10EE97792115F98500E91CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10EE977A2115F98500E91CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10EE977C2115F98500E91CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DECAD223D2F1984A0A6063 /* Pods-CoinEr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinEr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "danijel-vasov.CoinEr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10EE977D2115F98500E91CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30EF019D6C7A6748D1C42FD2 /* Pods-CoinEr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinEr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "danijel-vasov.CoinEr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10EE97642115F98400E91CB3 /* Build configuration list for PBXProject "CoinEr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10EE97792115F98500E91CB3 /* Debug */,
+				10EE977A2115F98500E91CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10EE977B2115F98500E91CB3 /* Build configuration list for PBXNativeTarget "CoinEr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10EE977C2115F98500E91CB3 /* Debug */,
+				10EE977D2115F98500E91CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10EE97612115F98400E91CB3 /* Project object */;
+}
