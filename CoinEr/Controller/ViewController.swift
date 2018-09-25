@@ -12,6 +12,8 @@ import SwiftyJSON
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var stack: UIStackView!
+    @IBOutlet weak var loadingView: UIView!
     
     @IBOutlet weak var askBTCLabel: UILabel!
     @IBOutlet weak var bidBTCLabel: UILabel!
@@ -38,9 +40,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadingView.alpha = 0
         usdButton.roundCorners()
         eurButton.roundCorners()
         dinButton.roundCorners()
+        animateStack(stack: stack)
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        animateStack(stack: stack)
     }
     
     @IBAction func usdBtnPressed(_ sender: Any) {
@@ -57,20 +65,18 @@ class ViewController: UIViewController {
     }
     
 
-    
-    
-    
-    
-    
-    
+ 
     func fetchData(btcURL: String, ethURL: String, xrpURL: String){
+        loadTheView(view: loadingView)
         Alamofire.request(btcURL, method: .get).responseJSON { (btcResponse) in
             if btcResponse.result.isSuccess {
                 let btcJSON: JSON = JSON(btcResponse.result.value!)
                 self.updateBTCui(json: btcJSON)
+                loadComplete(view: self.loadingView)
             } else {
                 debugPrint("ERR: \(String(describing: btcResponse.result.error?.localizedDescription))")
                 self.askBTCLabel.text = "Error"
+                loadComplete(view: self.loadingView)
                 return
             }
         }
@@ -94,6 +100,7 @@ class ViewController: UIViewController {
                 return
             }
         }
+        
     }
     
     

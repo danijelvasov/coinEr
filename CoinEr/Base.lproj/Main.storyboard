@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.13.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.9"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -30,7 +30,7 @@
                                         <color key="textColor" red="0.3411764706" green="0.66274509800000003" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="j5T-jw-Wpc">
+                                    <stackView opaque="NO" alpha="0.0" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="j5T-jw-Wpc">
                                         <rect key="frame" x="0.0" y="36" width="288" height="38"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUY-0t-06s">
@@ -208,6 +208,29 @@
                                     <constraint firstItem="7M0-tV-bdE" firstAttribute="top" secondItem="lC8-SP-q7d" secondAttribute="bottom" constant="20" id="v0N-LE-zfY"/>
                                 </constraints>
                             </view>
+                            <view alpha="0.75" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="clr-TV-hgz" userLabel="ViewLoading">
+                                <rect key="frame" x="40" y="420" width="240" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading data..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pcp-YF-5A8">
+                                        <rect key="frame" x="11" y="10.5" width="218" height="29"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="24"/>
+                                        <color key="textColor" red="0.43137254899999999" green="0.96862745100000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.45882352939999999" green="0.47058823529999999" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="4dL-55-XiT"/>
+                                    <constraint firstItem="Pcp-YF-5A8" firstAttribute="leading" secondItem="clr-TV-hgz" secondAttribute="leading" constant="11" id="G2I-UI-IYV"/>
+                                    <constraint firstAttribute="height" constant="50" id="GmC-Cb-oLe"/>
+                                    <constraint firstItem="Pcp-YF-5A8" firstAttribute="top" secondItem="clr-TV-hgz" secondAttribute="top" constant="10.5" id="Kgl-wM-0ZG"/>
+                                    <constraint firstItem="Pcp-YF-5A8" firstAttribute="centerX" secondItem="clr-TV-hgz" secondAttribute="centerX" id="Y76-cQ-djS"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pcp-YF-5A8" secondAttribute="trailing" constant="11" id="qau-ss-zZj"/>
+                                    <constraint firstAttribute="bottom" secondItem="Pcp-YF-5A8" secondAttribute="bottom" constant="10.5" id="qbB-Ik-f8D"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -221,6 +244,8 @@
                             <constraint firstItem="yPp-bY-IFp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fY3-em-4pq"/>
                             <constraint firstAttribute="bottomMargin" secondItem="yPp-bY-IFp" secondAttribute="bottom" id="jnT-Yh-xn0"/>
                             <constraint firstItem="EoE-lO-r5U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kkG-hu-Qr1"/>
+                            <constraint firstItem="clr-TV-hgz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o22-tB-p1F"/>
+                            <constraint firstItem="clr-TV-hgz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="150" id="uSn-tG-fqP"/>
                             <constraint firstItem="yPp-bY-IFp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vfV-8p-7WF"/>
                             <constraint firstItem="1A0-qJ-dbn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zKj-p2-vaI"/>
                         </constraints>
@@ -235,12 +260,14 @@
                         <outlet property="bidXRPLabel" destination="DDO-Hm-29w" id="jgL-Bg-WAH"/>
                         <outlet property="dinButton" destination="ubk-G7-ufh" id="k05-AD-hiV"/>
                         <outlet property="eurButton" destination="eWx-74-4BR" id="lM1-gP-rEQ"/>
+                        <outlet property="loadingView" destination="clr-TV-hgz" id="uY9-ep-ZEV"/>
+                        <outlet property="stack" destination="j5T-jw-Wpc" id="cjM-mS-cdj"/>
                         <outlet property="usdButton" destination="pUY-0t-06s" id="exi-Ok-BDq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="135" y="133.09859154929578"/>
         </scene>
     </scenes>
     <resources>

@@ -9,5 +9,7 @@ target 'CoinEr' do
 
 pod 'Alamofire'
 pod 'SwiftyJSON'
+pod 'SVProgressHUD'
+
 
 end
